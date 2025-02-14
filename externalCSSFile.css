@@ -1,59 +1,67 @@
+
+
+/* A.I. Disclaimer: All work for this assignment was completed by myself and entirely without the use of artificial intelligence tools such as ChatGPT, MS Copilot, other LLMs, etc. */
+
+
+
+
 /* ----------------------------------------------------------------------------------------------------------- */
 /* Styling for the header */
 .header {
-    margin-top: 15px; /* Adds a top margin of 15px to the header */
-    background-color: lightgrey; /* Sets the background color of the header to light grey */
-    text-align: center; /* Centers the text inside the header */
-    padding: 20px; /* Adds 20px of padding around the content in the header */
+    margin-top: 15px; 
+    background-color: lightgrey; 
+    text-align: center; 
+    padding: 20px; /
 }
 
 body {
     background-color: lightgray; /* Sets the background color of the entire page to light gray */
 }
 
+
 /* --------------------------------------------------------------------------------------------------------- */
 
 /* Styling for the navigation list */
 ul.navlist {
-    list-style-type: none; /* Removes the default bullet points from the list */
-    display: inline-block; /* Makes the list items display in a horizontal row */
-    margin-left: 580px; /* centers the nav list */
-    padding: 0; /* Removes the padding */
-    overflow: hidden; /* Hides any content that overflows */
-    background-color: blue; /* Sets the background color of the navigation bar to blue */
+    list-style-type: none; 
+    display: inline-block; 
+    margin-left: 580px; 
+    padding: 0; 
+    overflow: hidden; 
+    background-color: blue; 
 }
 
 /* Styling for each list item in the navigation list */
 li.navlist {
-    float: left; /* Aligns the list items horizontally to the left */
+    float: left; 
 }
 
 /* Styling for each link inside the list item */
 li a.navlist {
-    display: inline-block; /* Makes the link display inline, but allows block-style properties */
-    color: white; /* Sets the text color to white */
-    text-align: center; /* Centers the text inside the link */
-    padding: 14px 16px; /* Adds padding inside the link (top/bottom: 14px, left/right: 16px) */
-    text-decoration: none; /* Removes the underline from the links */
+    display: inline-block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none; 
 }
 
 /* Hover effect when a user mouses over a navigation link */
 li a:hover {
-    background-color: #111; /* Changes the background color to dark gray when hovered */
+    background-color: #111; 
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
 
 /* Styling for columns used to divide the page into sections */
 .column {
-    float: left; /* Makes the column float to the left side */
-    width: 33.33%; /* Makes the column take up one third of the available width */
+    float: left; 
+    width: 33.33%; 
 }
 
 
 /* Styling for the header inside the columns */
 .column h1 {
-    text-align: center; /* Centers the text inside the column header */
+    text-align: center; 
 }
 
 /* Clears the floated columns */
@@ -65,12 +73,12 @@ li a:hover {
 
 /* Styling for the footer */
 .footer {
-    height: 50px; /* Sets the height of the footer */
-    margin-top: 30px; /* Adds a 30px margin above the footer */
-    background-color: lightblue; /* Sets the background color of the footer to light blue */
-    text-align: center; /* Centers the text inside the footer */
-    padding: 10px; /* Adds 10px of padding inside the footer */
-    font-size: 1.1em; /* Increases the font size slightly */
+    height: 50px; 
+    margin-top: 30px;
+    background-color: lightblue; 
+    text-align: center; 
+    padding: 10px; 
+    font-size: 1.1em;
 }
 
 /* ----------------------------------------------------------------------------------------------------- */
@@ -80,20 +88,20 @@ li a:hover {
     color: darkred;
 }
 .job {
-    margin-bottom: 20px; /* Adds a 20px space below each job section */
-    margin-left: 40px; /* Adds a 40px margin on the left side of the list */
+    margin-bottom: 20px; /* 20px space below each job section */
+    margin-left: 40px; /*  40px margin on the left side of the list */
 }
 
 .job h2 {
-    font-size: 17px; /* Sets the font size to slightly larger than normal text */
+    font-size: 17px; /* Sets the font size 17px */
     color: #333; /* Sets the font color to a dark gray */
-    margin-bottom: 10px; /* Adds a 10px space below the job title */
+    margin-bottom: 10px; /* a 10px space below the job title */
 }
 
 /* Styling for the unordered list inside the job section */
 .job ul {
     list-style-type: disc; /* Adds bullet points to the list */
-    margin-left: 10px; /* Adds a 10px margin on the left side of the list */
+    margin-left: 10px; /* 10px margin on the left side of the list */
 }
 
 /* ------------------------------------------------------------------------------------------------------ */
@@ -101,7 +109,7 @@ li a:hover {
 /* Styling for the education section */
 .education {
     margin-bottom: 20px; /* Adds space below the education section */
-    margin-left: 50px; /* Adds a 50px space to the left of the education title */
+    margin-left: 50px; /* 50px space to the left of the education title */
 }
 
 /* Styling for education section titles */
@@ -109,21 +117,21 @@ li a:hover {
 #education_header{
     color: darkblue;
     margin-bottom: 20px; /* Adds space below the education section */
-    margin-left:0px; /* Adds a 50px space to the left of the education title */
+    margin-left:0px; /*  0px space to the left of the education title */
 }
 
 
 .education h2 {
     font-size: 17px; /* Sets the font size to 17px */
     color: #333; /* Sets the font color to dark gray */
-    margin-bottom: 10px; /* Adds a 10px space below the education title */
-    margin-left: 50px; /* Adds a 50px margin to the left of the education title */
+    margin-bottom: 10px; /* 10px space below the education title */
+    margin-left: 50px; /* 50px margin to the left of the education title */
 }
 
-/* Styling for the unordered list inside the education section */
+/* Styling for the list inside the education section */
 .education ul {
-    list-style-type: disc; /* Adds bullet points to the list */
-    margin-left: 40px; /* Adds a 40px margin on the left side of the list */
+    list-style-type: disc; 
+    margin-left: 40px;
 }
 
 /* ----------------------------------------------------------------------------------------------------------- */
@@ -131,40 +139,40 @@ li a:hover {
 /* Styling for the skills section */
 .skills {
     color: darkgreen;
-    margin-left: 50px; /* Adds a 50px space to the left of the skills section */
+    margin-left: 50px; /* 50px space to the left of the skills section */
 }
 
 /* Styling for the soft skills section */
 .soft_skills {
     color: purple;
-    margin-left: 230px; /* Adds a 230px space to the left of the soft skills section */
-    margin-bottom: 4px; /* Adds a 5px margin below the soft skills section */
+    margin-left: 230px; /* 230px space to the left of the soft skills section */
+    margin-bottom: 4px; /* 4px margin below the soft skills section */
 }
 
 /* Styling for the skills table */
 .skills-table {
-    margin-left: 150px; /* Adds a 150px margin to the left of the table */
+    margin-left: 150px; /* 150px margin to the left of the table */
     border-collapse: collapse; /* Removes space between table cells */
-    text-align: center; /* Centers the content inside the table cells */
+    text-align: center; /* Centers the text inside the table cells */
 }
 
 /* Styling for the soft skills table */
 .soft_skills-table {
-    margin-left: 130px; /* Adds a 130px margin to the left of the table */
+    margin-left: 130px; /* 130px margin to the left of the table */
     border-collapse: collapse; /* Removes space between table cells */
-    text-align: center; /* Centers the content inside the table cells */
+    text-align: center; /* Centers the text inside the table cells */
 }
 
 /* Styling for each table cell in the skills table */
 .skills-table td {
-    padding: 10px 20px; /* Adds padding inside each table cell */
-    border: 5px solid #ddd; /* Adds a 5px solid light gray border around each cell */
+    padding: 10px 20px; /* padding inside each table cell */
+    border: 5px solid #ddd; /*  5px solid light gray border around each cell */
 }
 
 /* Styling for each table cell in the soft skills table */
 .soft_skills-table td {
-    padding: 10px 20px; /* Adds padding inside each table cell */
-    border: 5px solid #ddd; /* Adds a 5px solid light gray border around each cell */
+    padding: 10px 20px; /* padding inside each table cell */
+    border: 5px solid #ddd; /*  5px solid light gray border around each cell */
 }
 
 /* -------------------------------------------------------------------------------------------------------------------------- */
@@ -173,8 +181,8 @@ li a:hover {
 
 /* Styling for each table cell in OLA 1 table */
 .table_ola1 td {
-    padding: 10px 20px; /* Adds padding inside each table cell */
-    border: 4px solid #ddd; /* Adds a 5px solid light gray border around each cell */
+    padding: 10px 20px; /*  padding inside each table cell */
+    border: 4px solid #ddd; /* 5px solid light gray border around each cell */
 }
 
 /* Styling for the header in OLA 1 table */
@@ -188,38 +196,38 @@ li a:hover {
 
 /* Styling for the "best albums" heading */
 #h2_best_albums {
-    margin-left: 140px; /* Adds a 140px space to the left */
-    margin-bottom: 5px; /* Adds a 5px space below the heading */
-    margin-top: 40px; /* Adds a 40px space above the heading */
+    margin-left: 140px; /*   140px space to the left */
+    margin-bottom: 5px; /* 5px space below the heading */
+    margin-top: 40px; /*  40px space above the heading */
 }
 
 /* Styling for the "about me" heading */
 #h2_about_me {
-    margin-top: 50px; /* Adds a 50px space above the heading */
-    margin-left: 200px; /* Adds a 200px space to the left */
-    margin-bottom: 5px; /* Adds a 5px space below the heading */
+    margin-top: 50px; /*   50px space above the heading */
+    margin-left: 200px; /*   200px space to the left */
+    margin-bottom: 5px; /*   5px space below the heading */
 }
 
-/* Styling for a picture container */
+/* Styling for the picture */
 #h2_a_picture {
-    text-align: center; /* Centers the text inside the picture container */
+    text-align: center;
 }
 
 /* Styling for the "favorite websites" heading */
 #h3_fav_website {
-    margin-top: 50px; /* Adds a 50px space above the heading */
-    margin-left: 180px; /* Adds a 180px space to the left */
+    margin-top: 50px; /*  50px space above the heading */
+    margin-left: 180px; /*  180px space to the left */
 }
 
 /* Styling for the "favorite songs" heading */
 #h3_fav_songs {
-    margin-top: 200px; /* Adds a 200px space above the heading */
-    margin-left: 160px; /* Adds a 160px space to the left */
+    margin-top: 200px; /*  200px space above the heading */
+    margin-left: 160px; /*  160px space to the left */
 }
 
-/* Styling for the ordered list of favorite songs */
+/* Styling for the  list of favorite songs */
 #fav_songs_ol {
-    margin-left: 130px; /* Adds a 130px space to the left of the ordered list */
+    margin-left: 130px; /*  130px space to the left of the list */
 }
 
 /* Styling for the Wordle game section */
@@ -230,8 +238,8 @@ li a:hover {
 /* Styling for the Wordle border section */
 #wordle_border {
     display: inline-block; /* Makes the Wordle border an inline block element */
-    margin-top: 30px; /* Adds a 30px space above the border */
-    margin-left: 200px; /* Adds a 200px space to the left of the border */
-    border: 1px dashed blue; /* Adds a dashed blue border around the section */
-    padding: 10px; /* Adds 10px of padding inside the border */
+    margin-top: 30px; /* 30px space above the border */
+    margin-left: 200px; /* 200px space to the left of the border */
+    border: 1px dashed blue; /*  dashed blue border around the section */
+    padding: 10px; /*  10px of padding inside the border */
 }
